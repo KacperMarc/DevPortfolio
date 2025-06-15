@@ -74,7 +74,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
           >
 
             
-            <div className={`absolute inset-0 ${project.color} blur-3xl opacity-20 rounded-full -z-10`}></div>
+            <div className={`absolute inset-0 ${project.color} blur-3xl opacity-20 rounded-full `}></div>
             <div className="relative mx-auto w-[280px] h-[580px] rounded-[40px] border-8 border-gray-800 overflow-hidden shadow-2xl">
               <div className="absolute top-0 inset-x-0 h-6 bg-gray-800 rounded-b-lg"></div>
 
